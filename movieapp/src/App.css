@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #111111;
+  color: white;
+}
+
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
+  
+}
+
+.NetgeeksIcon{
+  padding: 5px;
+  width: 120px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.SeccionSpan{
+  cursor: pointer;
+}
+
+.SeccionSpan:hover{
+  font-size: 17px;
+  color: rgb(229, 9, 20);
+}
+
+.right{
+  display: flex;
+  align-items: center;
+}
+  
+.icon{
+  width: 25px;
+  height: 25px;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  width: 30px;
+  height: 30px;
+}
+
+.max-center{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  padding: 15px;
+  background-color: #101114;
+
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.movie-cover{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.movie-placeholder{
+  min-height: 359px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero{
+  position: relative;
+  min-height: 500px;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-content{
+  max-width: 70%;
+  padding-bottom: 60px;
+}
+
+.hero-title{
+  font-size: 72px;
+  margin: 0;
+}
+
+.button{
+  background-color: #101113;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.button--close{
+  position: absolute;
+  z-index: 999;
+  bottom: 30px;
+  left: 30px;
+}
+
+.youtube-container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
